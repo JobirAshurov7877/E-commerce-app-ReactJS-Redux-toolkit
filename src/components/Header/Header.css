@@ -458,4 +458,20 @@ input, textarea, select {
   width: 6px;
   height: 100%;
   background-color: #F94E30;
-}/*# sourceMappingURL=App.css.map */
+}
+
+.header {
+  background: rgb(249, 78, 48);
+  background: linear-gradient(180deg, rgb(249, 78, 48) 0%, rgb(255, 100, 51) 100%);
+}
+.header .header-cnt-top {
+  border-bottom: 1px solid #fa7862;
+}
+@media screen and (max-width: 992px) {
+  .header .header-cnt-top {
+    flex-direction: column;
+  }
+  .header .header-cnt-top .header-cnt-top-l {
+    margin-bottom: 4px;
+  }
+}/*# sourceMappingURL=Header.css.map */
